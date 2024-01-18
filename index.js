@@ -15,7 +15,7 @@ const getData = async() => {
         }
 
         const data = countryJson.response
-        console.log(data)
+
 
         let activeCases = document.getElementById("active-case")
         let newCases = document.getElementById("new-case")
@@ -31,7 +31,7 @@ const getData = async() => {
         totalDeath.innerHTML = data[0].deaths.total ? data[0].deaths.total : "Data not found" 
         totalTest.innerHTML = data[0].tests.total ? data[0].tests.total : "Data not found"
         
-        console.log(countryJson)
+
     } catch (err) {
         console.log(err)
     }
