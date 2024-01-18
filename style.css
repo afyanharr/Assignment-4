@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+#content {
+    font-family: quicksand;
+    margin: 5%;
+    
+}
+
+#get-button{
+    background-color: #c30047;
+    color: white;
+}
+
+.card:hover {
+    background-color: #c30047;
+    color: white;
+    transform: scale(1.02);
+    transition: transform 0.4s ease;
+}
+
+
+
